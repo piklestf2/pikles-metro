@@ -1,0 +1,40 @@
+"settings.styles" 
+{
+	colors
+  {
+    none="0 0 0 0"
+	Focus="64 190 112 255"
+	Focus_T="255 255 255 30.6" 
+    white03="64 190 112 7.65"
+    white10="64 190 112 25.5"
+    white12="64 190 112 30.6"
+    //white15="64 190 112 38.25"
+    white24="64 190 112 61.2"
+    white25="64 190 112 63.75"
+    white45="64 190 112 114.75"
+    white75="64 190 112 191.25"
+    white="64 190 112 255"
+    black10="0 0 0 25.5"
+    black12="0 0 0 30.6"
+    //black15="0 0 0 38.25"
+    black24="0 0 0 61.2"
+    black25="0 0 0 63.75"
+    black45="0 0 0 114.75"
+    black75="0 0 0 191.25"
+    Black="0 0 0 255"
+	TrueWhite="255 255 255 255"
+    FrameBorder="71 255 148 72"
+		DetailsBackground=Black45
+		TextEntry="64 190 112 255"
+		TextEntryH="64 190 112 255"
+		ScrollBar="0 120 86 255"
+		ScrollBarH="64 190 112 255"
+    
+    Grey1="40 40 40 255"
+    Grey2="48 48 48 255"
+    Grey3="75 75 75 255"
+    Header_Dark="0 0 0 255"
+    ClientBG="0 0 0 255"
+		Red="255 0 0 255"
+	}
+}

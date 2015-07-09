@@ -1,0 +1,205 @@
+"controls.styles"
+{
+	styles
+	{
+    Button
+    {     
+			bgcolor=white12
+			font-family=basefont
+			font-size=16
+			textcolor="White"
+    }
+  
+		Button:hover
+    {   
+			bgcolor=white24
+    }
+		
+		Button:active
+		{
+			bgcolor=focus
+		}
+		
+		Button:disabled
+		{
+			textcolor=White45
+		}
+		
+		ToggleButton:selected
+		{
+			bgcolor=focus
+		}
+		
+		//Check
+
+    CheckButton
+    {
+      font-family=basefont
+      font-size=14
+      font-weight=400
+      textcolor="Label"
+      image="graphics/chkUnselStd"
+    }
+  
+    CheckButton:selected
+    {
+      image="graphics/chkSelStd"    
+    }
+
+    CheckButton:focus
+    {
+      textcolor="Text"
+      bgcolor=none
+      image="graphics/chkUnselFocus"  
+    }
+
+    CheckButton:selected:focus
+    {
+      textcolor="Text"
+      render_bg {}
+      bgcolor=none
+      image="graphics/chkSelFocus"
+    }
+    
+    CheckButton:disabled
+    {
+      textcolor="TextDisabled"
+      bgcolor=none
+      image="graphics/chkUnselDis"
+    }
+    
+    CheckButton:selected:disabled
+    {
+      textcolor="TextDisabled"
+      bgcolor=none
+      //!! bug - this needs to look disabled
+      image="graphics/chkSelDis"
+    }
+		
+		//Radio
+		
+    CheckButton
+    {
+      font-family=basefont
+      font-size=14
+      font-weight=400
+      textcolor="Label"
+      image="graphics/chkUnselStd"
+    }
+  
+    CheckButton:selected
+    {
+      image="graphics/chkSelStd"    
+    }
+
+    CheckButton:focus
+    {
+      textcolor="Text"
+      bgcolor=none
+      image="graphics/chkUnselFocus"  
+    }
+
+    CheckButton:selected:focus
+    {
+      textcolor="Text"
+      render_bg {}
+      bgcolor=none
+      image="graphics/chkSelFocus"
+    }
+    
+    CheckButton:disabled
+    {
+      textcolor="TextDisabled"
+      bgcolor=none
+      image="graphics/chkUnselDis"
+    }
+    
+    CheckButton:selected:disabled
+    {
+      textcolor="TextDisabled"
+      bgcolor=none
+      //!! bug - this needs to look disabled
+      image="graphics/chkSelDis"
+    }
+		
+		//Text Entry
+
+    TextEntry
+    {
+      font-family=basefont
+      font-size=16
+      textcolor="Black"
+      bgcolor="TextEntry"
+      selectedtextcolor="255 255 255 255"
+      selectedbgcolor="Focus"
+      shadowtextcolor="Black"  // this is the cursor color
+      inset-left=6
+    }
+
+		TextEntry:empty
+		{
+			textcolor="75 75 75 255"
+		}
+		
+    TextEntryURL
+    {
+      font-family=basefont
+      font-size=16
+      textcolor="Black"
+      bgcolor="TextEntry"
+      selectedtextcolor="255 255 255 255"
+      selectedbgcolor="Focus"
+      shadowtextcolor="Black"  // this is the cursor color
+      inset-left=6
+    }
+		
+    TextEntryURL:hover
+    {
+      bgcolor=TextEntryH
+    }
+		
+    TextEntryURL:focus
+    {
+      bgcolor=TextEntryH
+    }
+
+		TextEntryURL:empty
+		{
+			textcolor="Black45"
+		}
+		
+		//Chat Emoticon Button
+		
+		CEmoticonButton
+		{
+			padding-left=4
+			image="graphics/icons/more"
+			bgcolor=TextEntry
+		}
+
+		CEmoticonButton:hover
+		{
+			image="graphics/icons/more_h"
+		}
+
+		CEmoticonButton:selected
+		{
+			image="graphics/icons/more_h"
+		}
+
+		EmoticonMenuItemStyle
+		{
+			inset-left=-5
+			inset-top=-5
+			font-size=24
+			textcolor=White45
+			bgcolor=none
+			render_bg{}
+		}
+		
+		EmoticonMenuItemStyle:hover
+		{
+			textcolor=white
+		}
+	}
+}
